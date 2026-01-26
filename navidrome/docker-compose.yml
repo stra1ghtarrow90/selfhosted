@@ -1,0 +1,30 @@
+services:
+  navidrome:
+    image: deluan/navidrome:latest
+    user: 1003:1003 # should be owner of volumes
+    ports:
+      - "4533:4533"
+    restart: unless-stopped
+    environment:
+      # Optional: put your config options customization here. Examples:
+      ND_SCAN_SCHEDULE: 1h
+      ND_LOGLEVEL: info
+      ND_SESSIONTIMEOUT: 24h
+      ND_BASEURL: ""
+      ND_PORT: 4533
+      ND_REVERSEPROXYWHITELIST: "0.0.0.0/0"
+      ND_LASTFM_APIKEY: 95910b6f951281cc36a714edb5551ca3
+      ND_LASTFM_ENABLED: true
+      ND_LASTFM_SECRET: 1fad4390bd03d3366908c487b8270af6
+      ND_ENABLEINSIGHTSCOLLECTOR: false
+      ND_JUKEBOX_ENABLED: false
+      ND_DATAFOLDER: /data
+      ND_CACHEFOLDER: /opt/navidrome/cache
+      ND_LOGFILE: /opt/navidrome/log/navidrome.log
+      ND_MUSICFOLDER: /music
+      ND_UIWELCOMEMESSAGE: "This system is for the exclusive use of MSXTEC and TruePB authorised users. All access attempts are logged. Unauthorised access is forbidden and may result in disciplinary or legal action."        
+    volumes:
+      - /nfs/data/navidrome:/data
+      - /nfs/music/Music:/music
+      - /opt/navidrome/log:/opt/navidrome/log
+      - /opt/navidrome/cache:/opt/navidrome/cache

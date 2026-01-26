@@ -1,0 +1,41 @@
+services:
+  audiobookshelf:
+    image: ghcr.io/advplyr/audiobookshelf:latest
+    # optional: run as same user as your NFS export expects
+    user: "1003:1003"
+    ports:
+      - "13378:80"
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/London
+    volumes:
+      - abs_config:/config
+      - abs_metadata:/metadata
+      - abs_audiobooks:/audiobooks
+      - abs_podcasts:/podcasts
+
+volumes:
+  abs_config:
+    driver_opts:
+      type: "nfs"
+      o: "addr=10.50.13.13,nolock,rw,soft,nfsvers=4"
+      device: ":/mnt/ssd/docker-data/Audiobookshelf/config"
+
+  abs_metadata:
+    driver_opts:
+      type: "nfs"
+      o: "addr=10.50.13.13,nolock,rw,soft,nfsvers=4"
+      device: ":/mnt/ssd/docker-data/Audiobookshelf/metadata"
+
+  abs_audiobooks:
+    driver_opts:
+      type: "nfs"
+      o: "addr=10.50.13.13,nolock,rw,soft,nfsvers=4"
+      device: ":/mnt/redundant-mediafiles/Audiobookshelf/audiobooks"
+
+  abs_podcasts:
+    driver_opts:
+      type: "nfs"
+      o: "addr=10.50.13.13,nolock,rw,soft,nfsvers=4"
+      device: ":/mnt/redundant-mediafiles/Audiobookshelf/podcasts"
+
