@@ -1,0 +1,898 @@
+240508 11:18:17 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-05-08 11:18:17 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 492
+2024-05-08 11:18:17 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-05-08 11:18:17 0 [Note] InnoDB: Number of transaction pools: 1
+2024-05-08 11:18:17 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-05-08 11:18:17 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-05-08 11:18:17 0 [Note] InnoDB: Using Linux native AIO
+2024-05-08 11:18:17 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-05-08 11:18:17 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-08 11:18:17 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-05-08 11:18:17 0 [Note] InnoDB: End of log at LSN=46964
+2024-05-08 11:18:17 0 [Note] InnoDB: 128 rollback segments are active.
+2024-05-08 11:18:17 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-05-08 11:18:17 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-05-08 11:18:17 0 [Note] InnoDB: log sequence number 46964; transaction id 14
+2024-05-08 11:18:17 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-05-08 11:18:17 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-05-08 11:18:17 0 [Note] InnoDB: Buffer pool(s) load completed at 240508 11:18:17
+2024-05-08 11:18:17 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-05-08 11:18:17 0 [Note] Server socket created on IP: '::'.
+2024-05-08 11:18:17 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-05-08 11:18:18 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-05-08 11:18:23 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240517 14:35:59 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-05-17 14:36:02 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 413
+2024-05-17 14:36:02 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-05-17 14:36:02 0 [Note] InnoDB: Number of transaction pools: 1
+2024-05-17 14:36:02 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-05-17 14:36:02 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-05-17 14:36:02 0 [Note] InnoDB: Using Linux native AIO
+2024-05-17 14:36:02 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-05-17 14:36:02 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-17 14:36:02 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-05-17 14:36:02 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46948
+2024-05-17 14:36:03 0 [Note] InnoDB: End of log at LSN=1296475
+2024-05-17 14:36:03 0 [Note] InnoDB: To recover: 473 pages
+2024-05-17 14:36:03 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000003', position 127307
+2024-05-17 14:36:03 0 [Note] InnoDB: 128 rollback segments are active.
+2024-05-17 14:36:03 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-05-17 14:36:03 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-05-17 14:36:03 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-05-17 14:36:03 0 [Note] InnoDB: log sequence number 1296475; transaction id 2224
+2024-05-17 14:36:03 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-05-17 14:36:03 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-05-17 14:36:03 0 [Note] InnoDB: Buffer pool(s) load completed at 240517 14:36:03
+2024-05-17 14:36:03 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-05-17 14:36:03 0 [Note] Starting table crash recovery...
+2024-05-17 14:36:03 0 [Note] Crash table recovery finished.
+2024-05-17 14:36:03 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-05-17 14:36:03 0 [Note] Server socket created on IP: '::'.
+2024-05-17 14:36:03 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-05-17 14:36:04 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-05-17 14:36:04 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-05-17 14:36:05 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240518 12:03:17 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-05-18 12:03:17 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 411
+2024-05-18 12:03:17 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-05-18 12:03:17 0 [Note] InnoDB: Number of transaction pools: 1
+2024-05-18 12:03:17 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-05-18 12:03:17 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-05-18 12:03:17 0 [Note] InnoDB: Using Linux native AIO
+2024-05-18 12:03:17 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-05-18 12:03:17 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-18 12:03:17 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-05-18 12:03:18 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-05-18 12:03:18 0 [Note] InnoDB: End of log at LSN=1297911
+2024-05-18 12:03:18 0 [Note] InnoDB: To recover: 473 pages
+2024-05-18 12:03:18 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000003', position 127307
+2024-05-18 12:03:18 0 [Note] InnoDB: 128 rollback segments are active.
+2024-05-18 12:03:18 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-05-18 12:03:18 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-05-18 12:03:18 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-05-18 12:03:18 0 [Note] InnoDB: log sequence number 1297911; transaction id 2224
+2024-05-18 12:03:18 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-05-18 12:03:18 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-05-18 12:03:18 0 [Note] InnoDB: Buffer pool(s) load completed at 240518 12:03:18
+2024-05-18 12:03:18 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-05-18 12:03:18 0 [Note] Starting table crash recovery...
+2024-05-18 12:03:18 0 [Note] Crash table recovery finished.
+2024-05-18 12:03:18 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-05-18 12:03:18 0 [Note] Server socket created on IP: '::'.
+2024-05-18 12:03:18 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-05-18 12:03:18 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-05-18 12:03:20 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-05-18 12:03:21 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240519 16:03:42 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-05-19 16:03:43 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 412
+2024-05-19 16:03:43 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-05-19 16:03:43 0 [Note] InnoDB: Number of transaction pools: 1
+2024-05-19 16:03:43 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-05-19 16:03:43 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-05-19 16:03:43 0 [Note] InnoDB: Using Linux native AIO
+2024-05-19 16:03:43 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-05-19 16:03:43 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-19 16:03:43 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-05-19 16:03:43 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-05-19 16:03:43 0 [Note] InnoDB: End of log at LSN=1297995
+2024-05-19 16:03:43 0 [Note] InnoDB: To recover: 473 pages
+2024-05-19 16:03:43 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000003', position 127307
+2024-05-19 16:03:43 0 [Note] InnoDB: 128 rollback segments are active.
+2024-05-19 16:03:43 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-05-19 16:03:43 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-05-19 16:03:43 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-05-19 16:03:43 0 [Note] InnoDB: log sequence number 1297995; transaction id 2224
+2024-05-19 16:03:43 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-05-19 16:03:43 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-05-19 16:03:43 0 [Note] InnoDB: Buffer pool(s) load completed at 240519 16:03:43
+2024-05-19 16:03:43 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-05-19 16:03:43 0 [Note] Starting table crash recovery...
+2024-05-19 16:03:43 0 [Note] Crash table recovery finished.
+2024-05-19 16:03:43 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-05-19 16:03:43 0 [Note] Server socket created on IP: '::'.
+2024-05-19 16:03:43 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-05-19 16:03:44 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-05-19 16:03:45 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-05-19 16:03:46 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240519 16:47:44 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-05-19 16:47:45 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 412
+2024-05-19 16:47:45 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-05-19 16:47:45 0 [Note] InnoDB: Number of transaction pools: 1
+2024-05-19 16:47:45 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-05-19 16:47:45 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-05-19 16:47:45 0 [Note] InnoDB: Using Linux native AIO
+2024-05-19 16:47:45 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-05-19 16:47:45 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-19 16:47:45 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-05-19 16:47:45 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-05-19 16:47:45 0 [Note] InnoDB: End of log at LSN=1298079
+2024-05-19 16:47:45 0 [Note] InnoDB: To recover: 473 pages
+2024-05-19 16:47:45 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000003', position 127307
+2024-05-19 16:47:45 0 [Note] InnoDB: 128 rollback segments are active.
+2024-05-19 16:47:45 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-05-19 16:47:45 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-05-19 16:47:45 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-05-19 16:47:45 0 [Note] InnoDB: log sequence number 1298079; transaction id 2224
+2024-05-19 16:47:45 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-05-19 16:47:45 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-05-19 16:47:45 0 [Note] InnoDB: Buffer pool(s) load completed at 240519 16:47:45
+2024-05-19 16:47:45 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-05-19 16:47:45 0 [Note] Starting table crash recovery...
+2024-05-19 16:47:45 0 [Note] Crash table recovery finished.
+2024-05-19 16:47:45 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-05-19 16:47:45 0 [Note] Server socket created on IP: '::'.
+2024-05-19 16:47:45 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-05-19 16:47:46 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-05-19 16:47:46 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-05-19 16:47:47 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240521 17:11:53 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-05-21 17:11:55 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 413
+2024-05-21 17:11:55 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-05-21 17:11:55 0 [Note] InnoDB: Number of transaction pools: 1
+2024-05-21 17:11:55 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-05-21 17:11:55 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-05-21 17:11:55 0 [Note] InnoDB: Using Linux native AIO
+2024-05-21 17:11:55 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-05-21 17:11:55 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-21 17:11:55 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-05-21 17:11:56 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-05-21 17:11:56 0 [Note] InnoDB: End of log at LSN=1298163
+2024-05-21 17:11:56 0 [Note] InnoDB: To recover: 473 pages
+2024-05-21 17:11:56 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000003', position 127307
+2024-05-21 17:11:56 0 [Note] InnoDB: 128 rollback segments are active.
+2024-05-21 17:11:56 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-05-21 17:11:56 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-05-21 17:11:56 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-05-21 17:11:56 0 [Note] InnoDB: log sequence number 1298163; transaction id 2224
+2024-05-21 17:11:56 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-05-21 17:11:56 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-05-21 17:11:56 0 [Note] InnoDB: Buffer pool(s) load completed at 240521 17:11:56
+2024-05-21 17:11:58 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-05-21 17:11:58 0 [Note] Starting table crash recovery...
+2024-05-21 17:11:58 0 [Note] Crash table recovery finished.
+2024-05-21 17:11:58 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-05-21 17:11:58 0 [Note] Server socket created on IP: '::'.
+2024-05-21 17:11:58 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-05-21 17:11:59 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-05-21 17:12:00 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-05-21 17:12:01 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240610 14:02:12 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-06-10 14:02:14 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 413
+2024-06-10 14:02:15 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-06-10 14:02:15 0 [Note] InnoDB: Number of transaction pools: 1
+2024-06-10 14:02:15 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-06-10 14:02:15 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-06-10 14:02:15 0 [Note] InnoDB: Using Linux native AIO
+2024-06-10 14:02:15 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-06-10 14:02:15 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-06-10 14:02:15 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-06-10 14:02:15 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-06-10 14:02:15 0 [Note] InnoDB: End of log at LSN=3552890
+2024-06-10 14:02:16 0 [Note] InnoDB: To recover: 479 pages
+2024-06-10 14:02:16 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000008', position 691588
+2024-06-10 14:02:16 0 [Note] InnoDB: 128 rollback segments are active.
+2024-06-10 14:02:16 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-06-10 14:02:16 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-06-10 14:02:16 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-06-10 14:02:16 0 [Note] InnoDB: log sequence number 3552890; transaction id 3342
+2024-06-10 14:02:16 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-06-10 14:02:16 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-06-10 14:02:16 0 [Note] InnoDB: Buffer pool(s) load completed at 240610 14:02:16
+2024-06-10 14:02:16 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-06-10 14:02:16 0 [Note] Starting table crash recovery...
+2024-06-10 14:02:16 0 [Note] Crash table recovery finished.
+2024-06-10 14:02:16 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-06-10 14:02:16 0 [Note] Server socket created on IP: '::'.
+2024-06-10 14:02:16 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-06-10 14:02:17 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-06-10 14:02:17 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-06-10 14:02:18 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240623 22:11:41 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-06-23 22:11:43 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 413
+2024-06-23 22:11:43 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-06-23 22:11:43 0 [Note] InnoDB: Number of transaction pools: 1
+2024-06-23 22:11:43 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-06-23 22:11:43 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-06-23 22:11:44 0 [Note] InnoDB: Using Linux native AIO
+2024-06-23 22:11:44 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-06-23 22:11:44 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-06-23 22:11:44 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-06-23 22:11:44 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-06-23 22:11:44 0 [Note] InnoDB: End of log at LSN=3552974
+2024-06-23 22:11:44 0 [Note] InnoDB: To recover: 479 pages
+2024-06-23 22:11:44 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000008', position 691588
+2024-06-23 22:11:44 0 [Note] InnoDB: 128 rollback segments are active.
+2024-06-23 22:11:44 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-06-23 22:11:44 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-06-23 22:11:44 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-06-23 22:11:44 0 [Note] InnoDB: log sequence number 3552974; transaction id 3342
+2024-06-23 22:11:44 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-06-23 22:11:44 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-06-23 22:11:44 0 [Note] InnoDB: Buffer pool(s) load completed at 240623 22:11:44
+2024-06-23 22:11:44 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-06-23 22:11:44 0 [Note] Starting table crash recovery...
+2024-06-23 22:11:44 0 [Note] Crash table recovery finished.
+2024-06-23 22:11:45 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-06-23 22:11:45 0 [Note] Server socket created on IP: '::'.
+2024-06-23 22:11:45 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-06-23 22:11:45 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-06-23 22:11:46 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-06-23 22:11:47 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240626 12:05:10 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-06-26 12:05:10 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 412
+2024-06-26 12:05:10 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-06-26 12:05:10 0 [Note] InnoDB: Number of transaction pools: 1
+2024-06-26 12:05:10 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-06-26 12:05:10 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-06-26 12:05:10 0 [Note] InnoDB: Using Linux native AIO
+2024-06-26 12:05:10 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-06-26 12:05:10 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-06-26 12:05:10 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-06-26 12:05:10 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-06-26 12:05:10 0 [Note] InnoDB: End of log at LSN=3553058
+2024-06-26 12:05:10 0 [Note] InnoDB: To recover: 479 pages
+2024-06-26 12:05:11 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000008', position 691588
+2024-06-26 12:05:11 0 [Note] InnoDB: 128 rollback segments are active.
+2024-06-26 12:05:11 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-06-26 12:05:11 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-06-26 12:05:11 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-06-26 12:05:11 0 [Note] InnoDB: log sequence number 3553058; transaction id 3342
+2024-06-26 12:05:11 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-06-26 12:05:11 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-06-26 12:05:11 0 [Note] InnoDB: Buffer pool(s) load completed at 240626 12:05:11
+2024-06-26 12:05:11 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-06-26 12:05:11 0 [Note] Starting table crash recovery...
+2024-06-26 12:05:11 0 [Note] Crash table recovery finished.
+2024-06-26 12:05:11 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-06-26 12:05:11 0 [Note] Server socket created on IP: '::'.
+2024-06-26 12:05:11 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-06-26 12:05:11 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-06-26 12:05:12 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-06-26 12:05:13 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240629 06:50:22 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-06-29  6:50:24 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 412
+2024-06-29  6:50:25 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-06-29  6:50:25 0 [Note] InnoDB: Number of transaction pools: 1
+2024-06-29  6:50:25 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-06-29  6:50:25 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-06-29  6:50:25 0 [Note] InnoDB: Using Linux native AIO
+2024-06-29  6:50:25 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-06-29  6:50:25 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-06-29  6:50:25 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-06-29  6:50:25 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-06-29  6:50:25 0 [Note] InnoDB: End of log at LSN=3553142
+2024-06-29  6:50:25 0 [Note] InnoDB: To recover: 479 pages
+2024-06-29  6:50:26 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000008', position 691588
+2024-06-29  6:50:26 0 [Note] InnoDB: 128 rollback segments are active.
+2024-06-29  6:50:26 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-06-29  6:50:26 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-06-29  6:50:26 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-06-29  6:50:26 0 [Note] InnoDB: log sequence number 3553142; transaction id 3342
+2024-06-29  6:50:26 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-06-29  6:50:26 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-06-29  6:50:26 0 [Note] InnoDB: Buffer pool(s) load completed at 240629  6:50:26
+2024-06-29  6:50:26 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-06-29  6:50:26 0 [Note] Starting table crash recovery...
+2024-06-29  6:50:26 0 [Note] Crash table recovery finished.
+2024-06-29  6:50:26 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-06-29  6:50:26 0 [Note] Server socket created on IP: '::'.
+2024-06-29  6:50:26 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-06-29  6:50:27 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-06-29  6:50:27 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-06-29  6:50:28 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240630 11:41:47 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-06-30 11:41:49 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 412
+2024-06-30 11:41:49 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-06-30 11:41:49 0 [Note] InnoDB: Number of transaction pools: 1
+2024-06-30 11:41:49 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-06-30 11:41:49 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-06-30 11:41:49 0 [Note] InnoDB: Using Linux native AIO
+2024-06-30 11:41:49 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-06-30 11:41:49 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-06-30 11:41:49 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-06-30 11:41:49 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-06-30 11:41:50 0 [Note] InnoDB: End of log at LSN=3553226
+2024-06-30 11:41:50 0 [Note] InnoDB: To recover: 479 pages
+2024-06-30 11:41:50 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000008', position 691588
+2024-06-30 11:41:50 0 [Note] InnoDB: 128 rollback segments are active.
+2024-06-30 11:41:50 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-06-30 11:41:50 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-06-30 11:41:50 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-06-30 11:41:50 0 [Note] InnoDB: log sequence number 3553226; transaction id 3342
+2024-06-30 11:41:50 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-06-30 11:41:50 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-06-30 11:41:50 0 [Note] InnoDB: Buffer pool(s) load completed at 240630 11:41:50
+2024-06-30 11:41:50 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-06-30 11:41:50 0 [Note] Starting table crash recovery...
+2024-06-30 11:41:50 0 [Note] Crash table recovery finished.
+2024-06-30 11:41:50 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-06-30 11:41:50 0 [Note] Server socket created on IP: '::'.
+2024-06-30 11:41:50 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-06-30 11:41:51 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-06-30 11:41:51 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-06-30 11:41:52 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240703 11:13:13 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-07-03 11:13:15 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 412
+2024-07-03 11:13:15 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-07-03 11:13:15 0 [Note] InnoDB: Number of transaction pools: 1
+2024-07-03 11:13:15 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-07-03 11:13:15 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-07-03 11:13:15 0 [Note] InnoDB: Using Linux native AIO
+2024-07-03 11:13:15 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-07-03 11:13:15 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-07-03 11:13:15 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-07-03 11:13:16 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-07-03 11:13:16 0 [Note] InnoDB: End of log at LSN=3553310
+2024-07-03 11:13:16 0 [Note] InnoDB: To recover: 479 pages
+2024-07-03 11:13:17 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000008', position 691588
+2024-07-03 11:13:17 0 [Note] InnoDB: 128 rollback segments are active.
+2024-07-03 11:13:17 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-07-03 11:13:17 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-07-03 11:13:17 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-07-03 11:13:17 0 [Note] InnoDB: log sequence number 3553310; transaction id 3342
+2024-07-03 11:13:17 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-07-03 11:13:17 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-07-03 11:13:17 0 [Note] InnoDB: Buffer pool(s) load completed at 240703 11:13:17
+2024-07-03 11:13:17 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-07-03 11:13:17 0 [Note] Starting table crash recovery...
+2024-07-03 11:13:17 0 [Note] Crash table recovery finished.
+2024-07-03 11:13:17 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-07-03 11:13:17 0 [Note] Server socket created on IP: '::'.
+2024-07-03 11:13:17 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-07-03 11:13:18 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-07-03 11:13:19 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-07-03 11:13:20 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240704 07:26:53 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-07-04  7:26:56 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 413
+2024-07-04  7:26:56 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-07-04  7:26:56 0 [Note] InnoDB: Number of transaction pools: 1
+2024-07-04  7:26:56 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-07-04  7:26:56 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-07-04  7:26:56 0 [Note] InnoDB: Using Linux native AIO
+2024-07-04  7:26:56 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-07-04  7:26:56 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-07-04  7:26:56 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-07-04  7:26:57 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-07-04  7:26:57 0 [Note] InnoDB: End of log at LSN=3553394
+2024-07-04  7:26:57 0 [Note] InnoDB: To recover: 479 pages
+2024-07-04  7:26:57 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000008', position 691588
+2024-07-04  7:26:57 0 [Note] InnoDB: 128 rollback segments are active.
+2024-07-04  7:26:57 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-07-04  7:26:57 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-07-04  7:26:57 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-07-04  7:26:57 0 [Note] InnoDB: log sequence number 3553394; transaction id 3342
+2024-07-04  7:26:57 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-07-04  7:26:57 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-07-04  7:26:57 0 [Note] InnoDB: Buffer pool(s) load completed at 240704  7:26:57
+2024-07-04  7:26:57 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-07-04  7:26:57 0 [Note] Starting table crash recovery...
+2024-07-04  7:26:57 0 [Note] Crash table recovery finished.
+2024-07-04  7:26:57 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-07-04  7:26:57 0 [Note] Server socket created on IP: '::'.
+2024-07-04  7:26:57 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-07-04  7:26:58 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-07-04  7:26:59 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-07-04  7:27:00 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240801 15:16:59 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-08-01 15:17:00 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 413
+2024-08-01 15:17:01 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-08-01 15:17:01 0 [Note] InnoDB: Number of transaction pools: 1
+2024-08-01 15:17:01 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-08-01 15:17:01 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-08-01 15:17:01 0 [Note] InnoDB: Using Linux native AIO
+2024-08-01 15:17:01 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-08-01 15:17:01 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-08-01 15:17:01 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-08-01 15:17:02 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-08-01 15:17:02 0 [Note] InnoDB: End of log at LSN=3553478
+2024-08-01 15:17:02 0 [Note] InnoDB: To recover: 479 pages
+2024-08-01 15:17:02 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000008', position 691588
+2024-08-01 15:17:02 0 [Note] InnoDB: 128 rollback segments are active.
+2024-08-01 15:17:02 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-08-01 15:17:02 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-08-01 15:17:02 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-08-01 15:17:02 0 [Note] InnoDB: log sequence number 3553478; transaction id 3342
+2024-08-01 15:17:02 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-08-01 15:17:02 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-08-01 15:17:02 0 [Note] InnoDB: Buffer pool(s) load completed at 240801 15:17:02
+2024-08-01 15:17:02 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-08-01 15:17:02 0 [Note] Starting table crash recovery...
+2024-08-01 15:17:02 0 [Note] Crash table recovery finished.
+2024-08-01 15:17:02 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-08-01 15:17:02 0 [Note] Server socket created on IP: '::'.
+2024-08-01 15:17:02 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-08-01 15:17:03 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-08-01 15:17:04 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-08-01 15:17:05 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240808 12:14:06 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-08-08 12:14:06 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 411
+2024-08-08 12:14:06 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-08-08 12:14:06 0 [Note] InnoDB: Number of transaction pools: 1
+2024-08-08 12:14:06 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-08-08 12:14:06 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-08-08 12:14:07 0 [Note] InnoDB: Using Linux native AIO
+2024-08-08 12:14:07 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-08-08 12:14:07 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-08-08 12:14:07 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-08-08 12:14:07 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-08-08 12:14:07 0 [Note] InnoDB: End of log at LSN=3553562
+2024-08-08 12:14:07 0 [Note] InnoDB: To recover: 479 pages
+2024-08-08 12:14:07 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000008', position 691588
+2024-08-08 12:14:07 0 [Note] InnoDB: 128 rollback segments are active.
+2024-08-08 12:14:07 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-08-08 12:14:07 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-08-08 12:14:07 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-08-08 12:14:07 0 [Note] InnoDB: log sequence number 3553562; transaction id 3342
+2024-08-08 12:14:07 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-08-08 12:14:07 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-08-08 12:14:07 0 [Note] InnoDB: Buffer pool(s) load completed at 240808 12:14:07
+2024-08-08 12:14:07 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-08-08 12:14:07 0 [Note] Starting table crash recovery...
+2024-08-08 12:14:07 0 [Note] Crash table recovery finished.
+2024-08-08 12:14:07 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-08-08 12:14:07 0 [Note] Server socket created on IP: '::'.
+2024-08-08 12:14:07 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-08-08 12:14:07 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-08-08 12:14:09 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-08-08 12:14:10 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240808 12:49:40 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-08-08 12:49:45 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 412
+2024-08-08 12:49:45 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-08-08 12:49:45 0 [Note] InnoDB: Number of transaction pools: 1
+2024-08-08 12:49:45 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-08-08 12:49:45 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-08-08 12:49:45 0 [Note] InnoDB: Using Linux native AIO
+2024-08-08 12:49:45 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-08-08 12:49:45 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-08-08 12:49:45 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-08-08 12:49:46 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-08-08 12:49:46 0 [Note] InnoDB: End of log at LSN=3553646
+2024-08-08 12:49:47 0 [Note] InnoDB: To recover: 479 pages
+2024-08-08 12:49:47 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000008', position 691588
+2024-08-08 12:49:47 0 [Note] InnoDB: 128 rollback segments are active.
+2024-08-08 12:49:47 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-08-08 12:49:47 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-08-08 12:49:47 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-08-08 12:49:47 0 [Note] InnoDB: log sequence number 3553646; transaction id 3342
+2024-08-08 12:49:47 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-08-08 12:49:47 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-08-08 12:49:47 0 [Note] InnoDB: Buffer pool(s) load completed at 240808 12:49:47
+2024-08-08 12:49:47 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-08-08 12:49:47 0 [Note] Starting table crash recovery...
+2024-08-08 12:49:47 0 [Note] Crash table recovery finished.
+2024-08-08 12:49:47 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-08-08 12:49:47 0 [Note] Server socket created on IP: '::'.
+2024-08-08 12:49:47 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-08-08 12:49:48 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-08-08 12:49:49 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-08-08 12:49:50 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240904 02:31:47 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-09-04  2:31:50 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 413
+2024-09-04  2:31:51 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-09-04  2:31:51 0 [Note] InnoDB: Number of transaction pools: 1
+2024-09-04  2:31:51 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-09-04  2:31:51 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-09-04  2:31:51 0 [Note] InnoDB: Using Linux native AIO
+2024-09-04  2:31:51 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-09-04  2:31:51 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-09-04  2:31:51 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-09-04  2:31:51 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-09-04  2:31:52 0 [Note] InnoDB: End of log at LSN=3554795
+2024-09-04  2:31:52 0 [Note] InnoDB: To recover: 479 pages
+2024-09-04  2:31:52 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000018', position 1163
+2024-09-04  2:31:52 0 [Note] InnoDB: 128 rollback segments are active.
+2024-09-04  2:31:52 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-09-04  2:31:52 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-09-04  2:31:52 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-09-04  2:31:52 0 [Note] InnoDB: log sequence number 3554795; transaction id 3372
+2024-09-04  2:31:52 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-09-04  2:31:52 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-09-04  2:31:52 0 [Note] InnoDB: Buffer pool(s) load completed at 240904  2:31:52
+2024-09-04  2:31:52 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-09-04  2:31:52 0 [Note] Starting table crash recovery...
+2024-09-04  2:31:52 0 [Note] Crash table recovery finished.
+2024-09-04  2:31:52 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-09-04  2:31:52 0 [Note] Server socket created on IP: '::'.
+2024-09-04  2:31:52 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-09-04  2:31:52 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-09-04  2:31:54 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-09-04  2:31:55 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240906 12:49:08 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-09-06 12:49:12 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 415
+2024-09-06 12:49:12 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-09-06 12:49:12 0 [Note] InnoDB: Number of transaction pools: 1
+2024-09-06 12:49:12 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-09-06 12:49:12 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-09-06 12:49:12 0 [Note] InnoDB: Using Linux native AIO
+2024-09-06 12:49:12 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-09-06 12:49:12 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-09-06 12:49:13 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-09-06 12:49:13 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-09-06 12:49:13 0 [Note] InnoDB: End of log at LSN=3554879
+2024-09-06 12:49:14 0 [Note] InnoDB: To recover: 479 pages
+2024-09-06 12:49:14 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000018', position 1163
+2024-09-06 12:49:14 0 [Note] InnoDB: 128 rollback segments are active.
+2024-09-06 12:49:14 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-09-06 12:49:14 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-09-06 12:49:14 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-09-06 12:49:14 0 [Note] InnoDB: log sequence number 3554879; transaction id 3372
+2024-09-06 12:49:14 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-09-06 12:49:14 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-09-06 12:49:14 0 [Note] InnoDB: Buffer pool(s) load completed at 240906 12:49:14
+2024-09-06 12:49:14 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-09-06 12:49:14 0 [Note] Starting table crash recovery...
+2024-09-06 12:49:14 0 [Note] Crash table recovery finished.
+2024-09-06 12:49:14 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-09-06 12:49:14 0 [Note] Server socket created on IP: '::'.
+2024-09-06 12:49:14 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-09-06 12:49:15 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-09-06 12:49:16 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-09-06 12:49:17 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-09-06 15:03:14 28 [Warning] Aborted connection 28 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-09-06 15:03:20 29 [Warning] Aborted connection 29 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-09-06 15:06:17 31 [Warning] Aborted connection 31 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-09-06 15:06:23 32 [Warning] Aborted connection 32 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-09-11 16:36:42 91 [Warning] Aborted connection 91 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-09-11 16:36:48 92 [Warning] Aborted connection 92 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-09-11 16:38:36 103 [Warning] Aborted connection 103 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-09-11 16:38:43 104 [Warning] Aborted connection 104 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-09-11 16:46:08 115 [Warning] Aborted connection 115 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-09-11 16:46:14 116 [Warning] Aborted connection 116 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240919 07:23:20 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-09-19  7:23:25 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 415
+2024-09-19  7:23:26 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-09-19  7:23:26 0 [Note] InnoDB: Number of transaction pools: 1
+2024-09-19  7:23:26 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-09-19  7:23:26 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-09-19  7:23:26 0 [Note] InnoDB: Using Linux native AIO
+2024-09-19  7:23:26 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-09-19  7:23:26 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-09-19  7:23:26 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-09-19  7:23:27 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-09-19  7:23:27 0 [Note] InnoDB: End of log at LSN=3878998
+2024-09-19  7:23:31 0 [Note] InnoDB: To recover: 480 pages
+2024-09-19  7:23:31 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000008', position 490777
+2024-09-19  7:23:31 0 [Note] InnoDB: 128 rollback segments are active.
+2024-09-19  7:23:31 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-09-19  7:23:31 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-09-19  7:23:31 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-09-19  7:23:31 0 [Note] InnoDB: log sequence number 3878998; transaction id 3565
+2024-09-19  7:23:31 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-09-19  7:23:31 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-09-19  7:23:31 0 [Note] InnoDB: Buffer pool(s) load completed at 240919  7:23:31
+2024-09-19  7:23:31 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-09-19  7:23:31 0 [Note] Starting table crash recovery...
+2024-09-19  7:23:31 0 [Note] Crash table recovery finished.
+2024-09-19  7:23:32 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-09-19  7:23:32 0 [Note] Server socket created on IP: '::'.
+2024-09-19  7:23:33 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-09-19  7:23:33 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-09-19  7:23:34 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-09-19  7:23:35 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240925 12:22:51 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-09-25 12:22:57 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 414
+2024-09-25 12:22:58 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-09-25 12:22:58 0 [Note] InnoDB: Number of transaction pools: 1
+2024-09-25 12:22:58 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-09-25 12:22:58 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-09-25 12:22:59 0 [Note] InnoDB: Using Linux native AIO
+2024-09-25 12:22:59 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-09-25 12:22:59 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-09-25 12:22:59 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-09-25 12:23:00 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-09-25 12:23:01 0 [Note] InnoDB: End of log at LSN=3879082
+2024-09-25 12:23:05 0 [Note] InnoDB: To recover: 480 pages
+2024-09-25 12:23:06 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000008', position 490777
+2024-09-25 12:23:06 0 [Note] InnoDB: 128 rollback segments are active.
+2024-09-25 12:23:06 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-09-25 12:23:06 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-09-25 12:23:06 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-09-25 12:23:06 0 [Note] InnoDB: log sequence number 3879082; transaction id 3565
+2024-09-25 12:23:06 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-09-25 12:23:06 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-09-25 12:23:06 0 [Note] InnoDB: Buffer pool(s) load completed at 240925 12:23:06
+2024-09-25 12:23:06 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-09-25 12:23:06 0 [Note] Starting table crash recovery...
+2024-09-25 12:23:06 0 [Note] Crash table recovery finished.
+2024-09-25 12:23:07 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-09-25 12:23:07 0 [Note] Server socket created on IP: '::'.
+2024-09-25 12:23:08 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-09-25 12:23:08 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-09-25 12:23:09 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-09-25 12:23:10 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+240925 14:25:23 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-09-25 14:25:28 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 414
+2024-09-25 14:25:29 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-09-25 14:25:29 0 [Note] InnoDB: Number of transaction pools: 1
+2024-09-25 14:25:29 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-09-25 14:25:29 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-09-25 14:25:29 0 [Note] InnoDB: Using Linux native AIO
+2024-09-25 14:25:29 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-09-25 14:25:29 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-09-25 14:25:30 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-09-25 14:25:30 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-09-25 14:25:31 0 [Note] InnoDB: End of log at LSN=3879166
+2024-09-25 14:25:32 0 [Note] InnoDB: To recover: 480 pages
+2024-09-25 14:25:32 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000008', position 490777
+2024-09-25 14:25:32 0 [Note] InnoDB: 128 rollback segments are active.
+2024-09-25 14:25:32 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-09-25 14:25:32 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-09-25 14:25:32 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-09-25 14:25:32 0 [Note] InnoDB: log sequence number 3879166; transaction id 3565
+2024-09-25 14:25:32 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-09-25 14:25:32 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-09-25 14:25:32 0 [Note] InnoDB: Buffer pool(s) load completed at 240925 14:25:32
+2024-09-25 14:25:32 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-09-25 14:25:32 0 [Note] Starting table crash recovery...
+2024-09-25 14:25:32 0 [Note] Crash table recovery finished.
+2024-09-25 14:25:33 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-09-25 14:25:33 0 [Note] Server socket created on IP: '::'.
+2024-09-25 14:25:33 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-09-25 14:25:33 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-09-25 14:25:34 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-09-25 14:25:35 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+241001 14:53:59 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-10-01 14:54:06 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 415
+2024-10-01 14:54:07 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-10-01 14:54:07 0 [Note] InnoDB: Number of transaction pools: 1
+2024-10-01 14:54:07 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-10-01 14:54:07 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-10-01 14:54:07 0 [Note] InnoDB: Using Linux native AIO
+2024-10-01 14:54:07 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-10-01 14:54:07 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-01 14:54:08 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-10-01 14:54:09 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-10-01 14:54:10 0 [Note] InnoDB: End of log at LSN=3879250
+2024-10-01 14:54:13 0 [Note] InnoDB: To recover: 480 pages
+2024-10-01 14:54:14 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000008', position 490777
+2024-10-01 14:54:14 0 [Note] InnoDB: 128 rollback segments are active.
+2024-10-01 14:54:14 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-10-01 14:54:14 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-10-01 14:54:14 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-10-01 14:54:14 0 [Note] InnoDB: log sequence number 3879250; transaction id 3565
+2024-10-01 14:54:14 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-10-01 14:54:14 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-01 14:54:14 0 [Note] InnoDB: Buffer pool(s) load completed at 241001 14:54:14
+2024-10-01 14:54:14 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-10-01 14:54:14 0 [Note] Starting table crash recovery...
+2024-10-01 14:54:14 0 [Note] Crash table recovery finished.
+2024-10-01 14:54:15 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-10-01 14:54:15 0 [Note] Server socket created on IP: '::'.
+2024-10-01 14:54:16 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-10-01 14:54:16 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-10-01 14:54:17 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-10-01 14:54:18 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+241004 07:16:31 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-10-04  7:16:42 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 415
+2024-10-04  7:16:44 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-10-04  7:16:44 0 [Note] InnoDB: Number of transaction pools: 1
+2024-10-04  7:16:44 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-10-04  7:16:44 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-10-04  7:16:44 0 [Note] InnoDB: Using Linux native AIO
+2024-10-04  7:16:44 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-10-04  7:16:44 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-04  7:16:44 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-10-04  7:16:46 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-10-04  7:16:46 0 [Note] InnoDB: End of log at LSN=3879334
+2024-10-04  7:16:50 0 [Note] InnoDB: To recover: 480 pages
+2024-10-04  7:16:50 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000008', position 490777
+2024-10-04  7:16:50 0 [Note] InnoDB: 128 rollback segments are active.
+2024-10-04  7:16:50 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-10-04  7:16:50 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-10-04  7:16:50 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-10-04  7:16:50 0 [Note] InnoDB: log sequence number 3879334; transaction id 3565
+2024-10-04  7:16:50 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-10-04  7:16:50 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-04  7:16:50 0 [Note] InnoDB: Buffer pool(s) load completed at 241004  7:16:50
+2024-10-04  7:16:51 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-10-04  7:16:51 0 [Note] Starting table crash recovery...
+2024-10-04  7:16:51 0 [Note] Crash table recovery finished.
+2024-10-04  7:16:51 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-10-04  7:16:51 0 [Note] Server socket created on IP: '::'.
+2024-10-04  7:16:52 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-10-04  7:16:52 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-10-04  7:16:53 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-10-04  7:16:54 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+241004 16:34:03 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-10-04 16:34:04 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 411
+2024-10-04 16:34:04 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-10-04 16:34:04 0 [Note] InnoDB: Number of transaction pools: 1
+2024-10-04 16:34:04 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-10-04 16:34:04 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-10-04 16:34:04 0 [Note] InnoDB: Using Linux native AIO
+2024-10-04 16:34:04 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-10-04 16:34:04 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-04 16:34:04 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-10-04 16:34:04 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-10-04 16:34:05 0 [Note] InnoDB: End of log at LSN=3879418
+2024-10-04 16:34:05 0 [Note] InnoDB: To recover: 480 pages
+2024-10-04 16:34:05 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000008', position 490777
+2024-10-04 16:34:05 0 [Note] InnoDB: 128 rollback segments are active.
+2024-10-04 16:34:05 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-10-04 16:34:05 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-10-04 16:34:05 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-10-04 16:34:05 0 [Note] InnoDB: log sequence number 3879418; transaction id 3565
+2024-10-04 16:34:05 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-10-04 16:34:05 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-04 16:34:05 0 [Note] InnoDB: Buffer pool(s) load completed at 241004 16:34:05
+2024-10-04 16:34:05 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-10-04 16:34:05 0 [Note] Starting table crash recovery...
+2024-10-04 16:34:05 0 [Note] Crash table recovery finished.
+2024-10-04 16:34:05 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-10-04 16:34:05 0 [Note] Server socket created on IP: '::'.
+2024-10-04 16:34:05 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-10-04 16:34:06 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-10-04 16:34:06 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-10-04 16:34:07 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+241007 15:21:08 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-10-07 15:21:08 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 413
+2024-10-07 15:21:09 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-10-07 15:21:09 0 [Note] InnoDB: Number of transaction pools: 1
+2024-10-07 15:21:09 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-10-07 15:21:09 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-10-07 15:21:09 0 [Note] InnoDB: Using Linux native AIO
+2024-10-07 15:21:09 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-10-07 15:21:09 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-07 15:21:09 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-10-07 15:21:09 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-10-07 15:21:09 0 [Note] InnoDB: End of log at LSN=3879502
+2024-10-07 15:21:09 0 [Note] InnoDB: To recover: 480 pages
+2024-10-07 15:21:09 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000008', position 490777
+2024-10-07 15:21:09 0 [Note] InnoDB: 128 rollback segments are active.
+2024-10-07 15:21:09 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-10-07 15:21:09 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-10-07 15:21:09 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-10-07 15:21:09 0 [Note] InnoDB: log sequence number 3879502; transaction id 3565
+2024-10-07 15:21:09 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-07 15:21:09 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-10-07 15:21:09 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-10-07 15:21:09 0 [Note] Starting table crash recovery...
+2024-10-07 15:21:09 0 [Note] Crash table recovery finished.
+2024-10-07 15:21:09 0 [Note] InnoDB: Buffer pool(s) load completed at 241007 15:21:09
+2024-10-07 15:21:09 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-10-07 15:21:09 0 [Note] Server socket created on IP: '::'.
+2024-10-07 15:21:09 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-10-07 15:21:10 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-10-07 15:21:11 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-10-07 15:21:12 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+241122 10:14:55 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2024-11-22 10:14:55 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 413
+2024-11-22 10:14:55 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2024-11-22 10:14:55 0 [Note] InnoDB: Number of transaction pools: 1
+2024-11-22 10:14:55 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-11-22 10:14:55 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2024-11-22 10:14:55 0 [Note] InnoDB: Using Linux native AIO
+2024-11-22 10:14:55 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2024-11-22 10:14:55 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-11-22 10:14:55 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2024-11-22 10:14:55 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2024-11-22 10:14:56 0 [Note] InnoDB: End of log at LSN=3879586
+2024-11-22 10:14:56 0 [Note] InnoDB: To recover: 480 pages
+2024-11-22 10:14:56 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000008', position 490777
+2024-11-22 10:14:56 0 [Note] InnoDB: 128 rollback segments are active.
+2024-11-22 10:14:56 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-11-22 10:14:56 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-11-22 10:14:56 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-11-22 10:14:56 0 [Note] InnoDB: log sequence number 3879586; transaction id 3565
+2024-11-22 10:14:56 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-11-22 10:14:56 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2024-11-22 10:14:56 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2024-11-22 10:14:56 0 [Note] Starting table crash recovery...
+2024-11-22 10:14:56 0 [Note] Crash table recovery finished.
+2024-11-22 10:14:56 0 [Note] InnoDB: Buffer pool(s) load completed at 241122 10:14:56
+2024-11-22 10:14:56 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-11-22 10:14:56 0 [Note] Server socket created on IP: '::'.
+2024-11-22 10:14:56 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2024-11-22 10:14:56 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2024-11-22 10:14:57 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2024-11-22 10:14:58 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+250224 00:27:13 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2025-02-24  0:27:13 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 412
+2025-02-24  0:27:13 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2025-02-24  0:27:13 0 [Note] InnoDB: Number of transaction pools: 1
+2025-02-24  0:27:13 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2025-02-24  0:27:13 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2025-02-24  0:27:13 0 [Note] InnoDB: Using Linux native AIO
+2025-02-24  0:27:13 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2025-02-24  0:27:13 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-02-24  0:27:13 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2025-02-24  0:27:13 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2025-02-24  0:27:13 0 [Note] InnoDB: End of log at LSN=3894800
+2025-02-24  0:27:13 0 [Note] InnoDB: To recover: 480 pages
+2025-02-24  0:27:13 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000020', position 4745
+2025-02-24  0:27:13 0 [Note] InnoDB: 128 rollback segments are active.
+2025-02-24  0:27:13 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2025-02-24  0:27:13 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2025-02-24  0:27:13 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2025-02-24  0:27:13 0 [Note] InnoDB: log sequence number 3894800; transaction id 3613
+2025-02-24  0:27:13 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2025-02-24  0:27:13 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-02-24  0:27:13 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2025-02-24  0:27:13 0 [Note] Starting table crash recovery...
+2025-02-24  0:27:13 0 [Note] Crash table recovery finished.
+2025-02-24  0:27:13 0 [Note] InnoDB: Buffer pool(s) load completed at 250224  0:27:13
+2025-02-24  0:27:13 0 [Note] Server socket created on IP: '0.0.0.0'.
+2025-02-24  0:27:13 0 [Note] Server socket created on IP: '::'.
+2025-02-24  0:27:13 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2025-02-24  0:27:14 5 [Warning] Aborted connection 5 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2025-02-24  0:27:14 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2025-02-24  0:27:15 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+250311 10:42:12 mysqld_safe Starting mariadbd daemon with databases from /config/databases
+2025-03-11 10:42:13 0 [Note] Starting MariaDB 10.11.6-MariaDB-log source revision fecd78b83785d5ae96f2c6ff340375be803cd299 as process 412
+2025-03-11 10:42:13 0 [Note] InnoDB: Compressed tables use zlib 1.3.1
+2025-03-11 10:42:13 0 [Note] InnoDB: Number of transaction pools: 1
+2025-03-11 10:42:13 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2025-03-11 10:42:13 0 [Note] mariadbd: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2025-03-11 10:42:13 0 [Note] InnoDB: Using Linux native AIO
+2025-03-11 10:42:13 0 [Note] InnoDB: Initializing buffer pool, total size = 256.000MiB, chunk size = 4.000MiB
+2025-03-11 10:42:13 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-03-11 10:42:13 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+2025-03-11 10:42:13 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46964
+2025-03-11 10:42:13 0 [Note] InnoDB: End of log at LSN=4735114
+2025-03-11 10:42:13 0 [Note] InnoDB: To recover: 483 pages
+2025-03-11 10:42:13 0 [Note] InnoDB: Last binlog file '/config/log/mysql/mariadb-bin.000029', position 501043
+2025-03-11 10:42:13 0 [Note] InnoDB: 128 rollback segments are active.
+2025-03-11 10:42:13 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2025-03-11 10:42:13 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2025-03-11 10:42:13 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2025-03-11 10:42:13 0 [Note] InnoDB: log sequence number 4735114; transaction id 4065
+2025-03-11 10:42:13 0 [Note] InnoDB: Loading buffer pool(s) from /config/databases/ib_buffer_pool
+2025-03-11 10:42:13 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-03-11 10:42:13 0 [Note] InnoDB: Buffer pool(s) load completed at 250311 10:42:13
+2025-03-11 10:42:13 0 [Note] Recovering after a crash using /config/log/mysql/mariadb-bin
+2025-03-11 10:42:13 0 [Note] Starting table crash recovery...
+2025-03-11 10:42:13 0 [Note] Crash table recovery finished.
+2025-03-11 10:42:13 0 [Note] Server socket created on IP: '0.0.0.0'.
+2025-03-11 10:42:13 0 [Note] Server socket created on IP: '::'.
+2025-03-11 10:42:13 0 [Note] /usr/bin/mariadbd: ready for connections.
+Version: '10.11.6-MariaDB-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  Alpine Linux
+2025-03-11 10:42:14 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'unauthenticated' host: 'localhost' (This connection closed normally without authentication)
+2025-03-11 10:42:15 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)
+2025-03-11 10:42:16 7 [Warning] Aborted connection 7 to db: 'unconnected' user: 'unauthenticated' host: 'bookstack.bookstack_default' (This connection closed normally without authentication)

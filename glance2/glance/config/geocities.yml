@@ -1,0 +1,19 @@
+- name: Random stuff
+  columns:
+    - size: full
+      widgets:
+        - type: split-column
+          max-columns: 3
+          widgets:
+            - type: rss
+              title: "Oneterabyteofkilobyteage"
+              limit: 30
+              style: horizontal-cards
+              thumbnail-height: 20  
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://oneterabyteofkilobyteage.tumblr.com/rss
+                  title: oneterabyteofkilobyteage
+                  # limit: 5
+

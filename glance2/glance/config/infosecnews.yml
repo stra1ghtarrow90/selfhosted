@@ -1,0 +1,47 @@
+- name: Infosec news
+  columns:
+    - size: full
+      widgets:
+        - type: split-column
+          max-columns: 3
+          widgets:
+            - type: rss
+              title: "Help Net Security"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://www.helpnetsecurity.com/feed/
+                  title: Help Net Security
+                  # limit: 5
+            - type: rss
+              title: "Dark Reading"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://www.darkreading.com/rss.xml
+                  title: Dark Reading
+                  # limit: 5
+            - type: rss
+              title: "Kerbs on Security"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://krebsonsecurity.com/feed
+                  title: Kerbs on Security
+                  # limit: 5
+            - type: rss
+              title: "Bleeping Computer"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://www.bleepingcomputer.com/feed/
+                  title: Bleeping Computer
+                  # limit: 5

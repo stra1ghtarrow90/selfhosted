@@ -1,0 +1,16 @@
+2025/10/06 01:13:18 [warn] 173#173: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2025/10/06 01:13:18 [warn] 173#173: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2025/10/06 01:13:18 [warn] 173#173: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:19
+2025/10/06 01:13:18 [warn] 173#173: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/6.conf:19
+2025/10/06 01:13:18 [warn] 173#173: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:20
+2025/10/06 01:13:18 [warn] 173#173: protocol options redefined for [::]:443 in /data/nginx/proxy_host/6.conf:20
+2025/10/06 01:13:18 [warn] 173#173: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/7.conf:19
+2025/10/06 01:13:18 [warn] 173#173: protocol options redefined for [::]:443 in /data/nginx/proxy_host/7.conf:20
+2025/10/06 07:13:18 [warn] 173#173: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:19
+2025/10/06 07:13:18 [warn] 173#173: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/4.conf:20
+2025/10/06 07:13:18 [warn] 173#173: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:19
+2025/10/06 07:13:18 [warn] 173#173: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/6.conf:19
+2025/10/06 07:13:18 [warn] 173#173: the "listen ... http2" directive is deprecated, use the "http2" directive instead in /data/nginx/proxy_host/6.conf:20
+2025/10/06 07:13:18 [warn] 173#173: protocol options redefined for [::]:443 in /data/nginx/proxy_host/6.conf:20
+2025/10/06 07:13:18 [warn] 173#173: protocol options redefined for 0.0.0.0:443 in /data/nginx/proxy_host/7.conf:19
+2025/10/06 07:13:18 [warn] 173#173: protocol options redefined for [::]:443 in /data/nginx/proxy_host/7.conf:20

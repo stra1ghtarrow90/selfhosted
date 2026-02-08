@@ -1,0 +1,2 @@
+[08/Feb/2026:06:50:37 +0000] - 302 302 - GET https bookstack.msxtec.co.uk "/" [Client 10.50.6.2] [Length 390] [Gzip -] [Sent-to 10.50.5.51] "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:147.0) Gecko/20100101 Firefox/147.0" "https://bookstack.msxtec.co.uk/login"
+[08/Feb/2026:06:50:37 +0000] - 200 200 - GET https bookstack.msxtec.co.uk "/login" [Client 10.50.6.2] [Length 2698] [Gzip 3.25] [Sent-to 10.50.5.51] "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:147.0) Gecko/20100101 Firefox/147.0" "https://bookstack.msxtec.co.uk/login"
