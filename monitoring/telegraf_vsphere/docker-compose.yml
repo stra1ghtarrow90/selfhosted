@@ -1,0 +1,39 @@
+services:
+  influxdb2_vsphere:
+    image: influxdb:2.7
+    container_name: influxdb2_vsphere
+    restart: unless-stopped
+    networks: [grafana_default]
+    ports:
+      - "8088:8086"   # host 8088 -> container 8086 (so it doesn't clash with your 1.8)
+    environment:
+      DOCKER_INFLUXDB_INIT_MODE: setup
+      DOCKER_INFLUXDB_INIT_USERNAME: admin
+      DOCKER_INFLUXDB_INIT_PASSWORD: SecretPassword1
+      DOCKER_INFLUXDB_INIT_ORG: HomeLab
+      DOCKER_INFLUXDB_INIT_BUCKET: vsphere
+      DOCKER_INFLUXDB_INIT_RETENTION: 14d
+      DOCKER_INFLUXDB_INIT_ADMIN_TOKEN: ${INFLUXDB2_TOKEN}
+    volumes:
+      - influxdb2-vsphere-data:/var/lib/influxdb2
+
+  telegraf_vsphere:
+    image: telegraf:1.30-alpine
+    container_name: telegraf_vsphere
+    restart: unless-stopped
+    depends_on: [influxdb2_vsphere]
+    networks: [grafana_default]
+    environment:
+      VSPHERE_USER: ${VSPHERE_USER}
+      VSPHERE_PASS: ${VSPHERE_PASS}
+      INFLUXDB2_TOKEN: ${INFLUXDB2_TOKEN}
+    volumes:
+      - ./telegraf.conf:/etc/telegraf/telegraf.conf:ro
+      - ./telegraf.d:/etc/telegraf/telegraf.d:ro
+
+networks:
+  grafana_default:
+    external: true
+
+volumes:
+  influxdb2-vsphere-data:

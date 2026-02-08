@@ -1,0 +1,4 @@
+VSPHERE_USER=svc_vsphere_ro
+VSPHERE_PASS=
+INFLUXDB2_TOKEN=
+

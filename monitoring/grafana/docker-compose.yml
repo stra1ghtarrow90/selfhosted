@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    user: "999:987"  # <-- run as dockeruser (UID:GID)
+    volumes:
+      - /home/msalter1/docker/grafana/grafana_grafana-storage:/var/lib/grafana
+    env_file:
+      - .env
+
+networks:
+  default:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.31.0.0/24"

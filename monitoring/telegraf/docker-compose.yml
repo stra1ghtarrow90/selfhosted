@@ -1,0 +1,32 @@
+version: "3.8"
+services:
+  influxdb:
+    image: influxdb:1.8-alpine
+    container_name: influxdb
+    restart: unless-stopped
+    networks: [grafana_default]
+    environment:
+      INFLUXDB_DB: telegraf
+      INFLUXDB_HTTP_AUTH_ENABLED: "false"   # set to "true" and add creds if you want auth
+    ports:
+      - "8086:8086"                         # only needed if you want host access to Influx
+    volumes:
+      - influxdb-data:/var/lib/influxdb
+
+  telegraf:
+    image: telegraf:1.30-alpine
+    container_name: telegraf
+    depends_on: [influxdb]
+    restart: unless-stopped
+    networks: [grafana_default]
+    # Needs outbound UDP/161 to your iDRAC IPs
+    volumes:
+      - ./telegraf.conf:/etc/telegraf/telegraf.conf:ro
+      - ./telegraf.d:/etc/telegraf/telegraf.d:ro
+
+networks:
+  grafana_default:
+    external: true
+
+volumes:
+  influxdb-data:
