@@ -84,12 +84,4 @@
             - type: hacker-news
               cache: 6h
             - type: rss
-              title: "Cloudflare"
-              limit: 30
-              style: detailed-list
-              collapse-after: 5
-              cache: 6h
-              feeds:
-                - url: https://developers.cloudflare.com/changelog/rss/index.xml
-                  title: CloudFlare
-                    # limit: 5
+

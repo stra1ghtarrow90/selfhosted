@@ -1,0 +1,27 @@
+- name: Engineering
+  columns:
+    - size: full
+      widgets:
+        - type: split-column
+          max-columns: 3
+          widgets:
+            - type: rss              
+              title: "Cloudflare"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://developers.cloudflare.com/changelog/rss/index.xml
+                  title: CloudFlare
+                    # limit: 5
+            - type: rss              
+              title: "Stripe Engineering"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://stripe.com/blog/feed.rss
+                  title: CloudFlare
+                    # limit: 5
