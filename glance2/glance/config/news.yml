@@ -83,4 +83,13 @@
                   title: This Week in Linux
             - type: hacker-news
               cache: 6h
-            # - type: lobstershttps://feeds.theguardian.com/theguardian/uk/rss
+              - type: rss
+                title: "Cloudflare"
+                limit: 30
+                style: detailed-list
+                collapse-after: 5
+                cache: 6h
+                feeds:
+                  - url: https://developers.cloudflare.com/changelog/rss/index.xml
+                    title: CloudFlare
+                    # limit: 5
