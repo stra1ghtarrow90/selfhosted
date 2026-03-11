@@ -36,12 +36,13 @@
                   title: Kerbs on Security
                   # limit: 5
             - type: rss
-              title: "Bleeping Computer"
+              title: "SANS ISC"
               limit: 30
               style: detailed-list
               collapse-after: 5
               cache: 6h
               feeds:
-                - url: https://www.bleepingcomputer.com/feed/
-                  title: Bleeping Computer
+                - url: https://isc.sans.edu/rssfeed.xml
+                  title: SANS ISC
                   # limit: 5
+
