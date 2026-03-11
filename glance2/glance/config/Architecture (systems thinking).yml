@@ -1,0 +1,47 @@
+- name: Architecture (systems thinking)
+  columns:
+    - size: full
+      widgets:
+        - type: split-column
+          max-columns: 3
+          widgets:
+            - type: rss
+              title: "Martin Fowler"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://martinfowler.com/feed.atom
+                  title: Martin Fowler
+                  # limit: 5
+            - type: rss
+              title: "AWS Architecture Blog"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://aws.amazon.com/blogs/architecture/feed/
+                  title: AWS Architecture Blog
+                  # limit: 5
+            - type: rss
+              title: "High Scalability"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://feeds.feedburner.com/HighScalability
+                  title: High Scalability
+                  # limit: 5
+            - type: rss
+              title: "InfoQ Architecture"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://feed.infoq.com/architecture-design
+                  title: InfoQ Architecture
+                  # limit: 5

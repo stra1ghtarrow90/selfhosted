@@ -1,0 +1,57 @@
+- name: security rsearch
+  columns:
+    - size: full
+      widgets:
+        - type: split-column
+          max-columns: 3
+          widgets:
+            - type: rss
+              title: "Kerbs on Security"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://krebsonsecurity.com/feed
+                  title: Kerbs on Security
+                  # limit: 5
+            - type: rss
+              title: "Schneier on Security"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://www.schneier.com/feed/
+                  title: Schneier on Security
+                  # limit: 5
+            - type: rss
+              title: "Google Project Zero"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://googleprojectzero.blogspot.com/feeds/posts/default
+                  title: Google Project Zero
+                  # limit: 5
+            - type: rss
+              title: "Trail of Bits"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://blog.trailofbits.com/feed/
+                  title: Trail of Bits
+                  # limit: 5
+            - type: rss
+              title: "Huntress Labs"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://www.huntress.com/blog/rss.xml
+                  title: Huntress Labs
+                  # limit: 5

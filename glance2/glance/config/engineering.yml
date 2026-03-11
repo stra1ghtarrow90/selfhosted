@@ -23,5 +23,35 @@
               cache: 6h
               feeds:
                 - url: https://stripe.com/blog/feed.rss
-                  title: CloudFlare
+                  title: Stripe Engineering
+                    # limit: 5
+            - type: rss              
+              title: "Netflix Tech Blog"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://netflixtechblog.com/feed
+                  title: Netflix Tech Blog
+                    # limit: 5
+            - type: rss              
+              title: "Github Engineering"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://github.blog/engineering/feed/
+                  title: Github Engineering
+                    # limit: 5
+            - type: rss              
+              title: "Google Security Blog"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: https://security.googleblog.com/feeds/posts/default
+                  title: Google Security Blog
                     # limit: 5

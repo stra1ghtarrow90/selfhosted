@@ -1,4 +1,4 @@
-- name: Infosec news
+- name: threat intelligence
   columns:
     - size: full
       widgets:
@@ -6,43 +6,42 @@
           max-columns: 3
           widgets:
             - type: rss
-              title: "Help Net Security"
+              title: "CISA alerts"
               limit: 30
               style: detailed-list
               collapse-after: 5
               cache: 6h
               feeds:
-                - url: https://www.helpnetsecurity.com/feed/
-                  title: Help Net Security
+                - url: https://www.cisa.gov/cybersecurity-advisories/all.xml
+                  title: CISA Alerts
                   # limit: 5
             - type: rss
-              title: "Dark Reading"
+              title: "NIST Cybersecurity Insights"
               limit: 30
               style: detailed-list
               collapse-after: 5
               cache: 6h
               feeds:
-                - url: https://www.darkreading.com/rss.xml
-                  title: Dark Reading
+                - url: https://www.nist.gov/blogs/cybersecurity-insights/rss.xml
+                  title: NIST Cybersecurity Insights
                   # limit: 5
             - type: rss
-              title: "Kerbs on Security"
+              title: "CISCO Talos"
               limit: 30
               style: detailed-list
               collapse-after: 5
               cache: 6h
               feeds:
-                - url: https://krebsonsecurity.com/feed
-                  title: Kerbs on Security
+                - url: https://blog.talosintelligence.com/feeds/posts/default
+                  title: CISCO Talos
                   # limit: 5
             - type: rss
-              title: "SANS ISC"
+              title: "Proofpoint Threat Research"
               limit: 30
               style: detailed-list
               collapse-after: 5
               cache: 6h
               feeds:
-                - url: https://isc.sans.edu/rssfeed.xml
-                  title: SANS ISC
+                - url: https://www.proofpoint.com/us/rss.xml
+                  title: Proofpoint Threat Research
                   # limit: 5
-

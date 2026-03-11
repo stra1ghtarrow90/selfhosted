@@ -21,8 +21,11 @@ pages:
   # It's not necessary to create a new file for each page and include it, you can simply
   # put its contents here, though multiple pages are easier to manage when separated
   !include: home.yml
+  !include: security news.yml 
+  !include: security research.yml
+  !include: threat intelligence.yml 
+  !include: Architecture (systems thinking).yml 
+  !include: engineering.yml 
   !include: news.yml
-  !include: infosecnews.yml  
   !include: reddit.yml
   !include: geocities.yml  
-  !include: engineering.yml  
