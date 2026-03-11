@@ -1,4 +1,4 @@
-- name: security rsearch
+- name: security research
   columns:
     - size: full
       widgets:
