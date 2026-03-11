@@ -1,4 +1,4 @@
-- name: Engineering
+- name: engineering
   columns:
     - size: full
       widgets:

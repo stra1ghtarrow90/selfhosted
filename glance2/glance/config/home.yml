@@ -275,7 +275,7 @@
                 url: http://192.168.1.111:8080
                 icon: di:qbittorrent
               - title: Code Server
-                url: https://code.hs.domain.com/
+                url: https://code.truepb.net/
                 icon: di:code
               - title: Prometheus
                 url: https://hs6.domain.com/prometheus
