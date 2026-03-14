@@ -9,7 +9,7 @@ services:
       - TZ=Europe/London
       - JELLYFIN_PublishedServerUrl=https://jellyfin.msxtec.co.uk # optional
     volumes:
-      - /nfs/data/jellyfin/config:/config
+      - ./config:/config
       - /nfs/data/jellyfin/metadata:/metadata
       - /nfs/media:/data/media:ro
       - /opt/jellyfin/cache:/cache
