@@ -45,3 +45,13 @@
                 - url: https://www.proofpoint.com/us/rss.xml
                   title: Proofpoint Threat Research
                   # limit: 5
+            - type: rss
+              title: "Unit42"
+              limit: 30
+              style: detailed-list
+              collapse-after: 5
+              cache: 6h
+              feeds:
+                - url: http://feeds.feedburner.com/Unit42
+                  title: Unit42
+                  # limit: 5
